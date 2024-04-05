@@ -1,3 +1,4 @@
+
 def get_cats_info(path):
     cats_info = []
     
@@ -15,6 +16,5 @@ def get_cats_info(path):
     
     return cats_info
 
-cats_info = get_cats_info("path/to/cats_file.txt")
-if cats_info is not None:
-    print(cats_info)
+cats_info = get_cats_info("D:\PROGECTS\goit\hm 4\cats_file.txt")
+print(cats_info)
